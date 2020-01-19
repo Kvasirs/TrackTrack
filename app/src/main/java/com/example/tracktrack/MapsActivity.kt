@@ -409,10 +409,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
                         var lastLoc = LatLng(location.latitude, location.longitude)
                         updateMarker(lastLoc)
                         updateCamera(lastLoc)
-                        //If Bay Campus mode is enabled, generate lyrics around Bay Campus.
-                        if(Game.campusMode) {
-                            lastLoc = LatLng(51.6189061, -3.8800612)
-                        }
+
                         //Generate lyric markers.
                         generateLyricMarkers(lastLoc)
                         hasFoundLyric(lastLoc)

@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         val classicBtn = findViewById<Button>(R.id.classicButton)
         val shopBtn = findViewById<Button>(R.id.shopButton)
         val achievementBtn = findViewById<Button>(R.id.achievementButton)
-        val campusBtn = findViewById<Button>(R.id.campusModeButton)
 
         //Event handler for current mode button.
         currentBtn.setOnClickListener{
@@ -45,18 +44,6 @@ class MainActivity : AppCompatActivity() {
         shopBtn.setOnClickListener{
             val intent = Intent(applicationContext, ShopActivity::class.java)
             startActivity(intent)
-        }
-        //Event handler for Bay Campus mode button.
-        campusBtn.setOnClickListener{
-            if(Game.campusMode){
-                Game.campusMode = false
-                campusBtn.setBackgroundColor(ContextCompat.getColor(this, R.color.themeDarkerGrey))
-                campusBtn.text = getString(R.string.campusOn)
-            } else {
-                Game.campusMode = true
-                campusBtn.setBackgroundColor(ContextCompat.getColor(this, R.color.themeOrange))
-                campusBtn.text = getString(R.string.campusOff)
-            }
         }
 
         //Get shared preferences for game. Ensures persistant storage.

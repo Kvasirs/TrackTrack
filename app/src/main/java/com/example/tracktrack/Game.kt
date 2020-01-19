@@ -24,7 +24,6 @@ class Game {
 
         var inGameSteps = 0
         var inGameGuesses = 0
-        var campusMode = true
 
         /**
          * Resets game values on game quit/finish.
