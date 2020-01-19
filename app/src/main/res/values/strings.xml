@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TrackTrack</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="equip_items">Equip Items</string>
+    <string name="make_guess">Make Guess</string>
+    <string name="find_lyrics">Lyrics</string>
+    <string name="take_a_guess">Take a guess</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="song_name">Song Name</string>
+    <string name="submit">Submit</string>
+    <string name="lyrics_collected">Lyrics collected: %1$d</string>
+    <string name="lyrics">LYRICS</string>
+    <string name="player_markers">Player Markers</string>
+    <string name="music_markers">Music Markers</string>
+    <string name="coins">Coins: %1$d</string>
+    <string name="return_to_main_menu">Return to Main Menu</string>
+    <string name="coins_earned">Coins earned: %1$d</string>
+    <string name="correct">CORRECT!</string>
+    <string name="tracktrack">TRACKTRACK</string>
+    <string name="classic_mode">Classic Mode</string>
+    <string name="current_mode">Current Mode</string>
+    <string name="achievements">ACHIEVEMENTS</string>
+    <string name="shop">SHOP</string>
+    <string name="bay_campus_mode">Bay Campus Mode</string>
+    <string name="guess">GUESS</string>
+    <string name="campusOn">Bay Campus Mode: Off</string>
+    <string name="campusOff">Bay Campus Mode: On</string>
+    <string name="achievements_found">Achievements: %1$d</string>
+    <string name="equpped">Equipped</string>
+    <string name="equip">Equip</string>
+    <string name="buy">Buy</string>
+    <string name="owned">Owned</string>
+    <string name="cost">Cost: %1$d</string>
+    <string name="inventory">INVENTORY</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004777"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:text="@string/tracktrack"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            app:fontFamily="@font/days_one" />
+
+        <Button
+            android:id="@+id/classicButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#7C77B9"
+            android:padding="10dp"
+            android:text="@string/classic_mode"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/currentButton"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#FF7700"
+            android:padding="10dp"
+            android:text="@string/current_mode"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/achievementButton"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#00AFB5"
+            android:padding="10dp"
+            android:text="@string/achievements"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/shopButton"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#16881D"
+            android:padding="10dp"
+            android:text="@string/shop"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

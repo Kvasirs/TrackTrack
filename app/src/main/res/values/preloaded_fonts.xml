@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/antic</item>
+        <item>@font/audiowide</item>
+        <item>@font/bungee</item>
+        <item>@font/codystar</item>
+        <item>@font/days_one</item>
+        <item>@font/delius_unicase_bold</item>
+    </array>
+</resources>
