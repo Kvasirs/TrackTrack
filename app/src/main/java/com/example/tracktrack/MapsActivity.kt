@@ -244,26 +244,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
      * Event handler for collecting lyricMarkers.
      */
     override fun onMarkerClick(marker: Marker): Boolean {
-
-        val builder = AlertDialog.Builder(this)
-        builder.setMessage("Would you like to pick up this lyric?")
-
         for (lyric in Game.lyricMarkers) {
             if (marker == lyric.marker && lyric.isClose()) {
-                //If yes pressed
-                builder.setPositiveButton("Yes") { _, _ ->
-                    Game.lyricMarkers.remove(lyric)
-                    lyric.marker.remove()
-                    Game.collectedLyrics.add(lyric.lyric)
-                }
-                //If no pressed
-                builder.setNegativeButton("No") { dialog, _ ->
-                    dialog.cancel()
-                }
-                //Show dialog box
-                val alert = builder.create()
-                alert.show()
-
+                Game.lyricMarkers.remove(lyric)
+                lyric.marker.remove()
+                Game.collectedLyrics.add(lyric.lyric)
                 return true
             }
         }
