@@ -1,14 +1,13 @@
+Features:
 
-
-Integrate music API (high priority)
+Integrate Music API (high priority)
 Song previews
 Victory screen (low priority)
-
 Animations
 Polish UI
-Animations
 App icon
 Settings
 More items in shop
 Smooth position marker
 
+Bug Fixes:
