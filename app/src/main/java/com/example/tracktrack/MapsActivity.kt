@@ -88,7 +88,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         //Creates sensor object for tracking number of steps taken.
         sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
 
-
         //ConnectivityManager object for determining if there is an internet connection or not.
         val cm = this.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val activeNetwork: NetworkInfo? = cm.activeNetworkInfo
@@ -294,14 +293,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         //Load all potential song names.
         val allSongNames = ArrayList<String>()
         val directory = "lyrics/${Game.songType}"
-        println("for every element in directory: " + Game.songType)
         this.assets.list(directory)!!.forEach {
-            println(it)
             allSongNames.add(it)
         }
 
         //Selected random song name from songs.
-        println(allSongNames)
         val selectedSongName = allSongNames.shuffled().take(1)[0]
 
         //Set randomly selected song.
