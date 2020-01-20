@@ -422,8 +422,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         Log.i("myLocation", "request")
         val mLocationRequest = LocationRequest()
         mLocationRequest.priority = LocationRequest.PRIORITY_HIGH_ACCURACY
-        mLocationRequest.interval = 5000
-        mLocationRequest.fastestInterval = 3000
+        mLocationRequest.interval = 500
+        mLocationRequest.fastestInterval = 500
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         mFusedLocationClient.requestLocationUpdates(
