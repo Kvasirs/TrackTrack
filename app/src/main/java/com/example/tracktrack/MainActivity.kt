@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.core.content.ContextCompat
+import org.jsoup.Jsoup
 
 /**
  * MainActivity - Handles events made on the main menu. Will allow

@@ -39,4 +39,5 @@ dependencies {
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
     implementation 'com.google.android.gms:play-services-location:17.0.0'
     implementation "android.arch.lifecycle:extensions:1.1.1"
+    implementation 'org.jsoup:jsoup:1.12.1'
 }
