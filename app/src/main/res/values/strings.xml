@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TrackTrack</string>
+    <string name="app_name">ChorusCatcher</string>
     <string name="title_activity_maps">Map</string>
     <string name="equip_items">Equip Items</string>
     <string name="make_guess">Make Guess</string>
@@ -16,7 +16,7 @@
     <string name="return_to_main_menu">Return to Main Menu</string>
     <string name="coins_earned">Coins earned: %1$d</string>
     <string name="correct">CORRECT!</string>
-    <string name="tracktrack">TRACKTRACK</string>
+    <string name="tracktrack">CHORUS CATCHER</string>
     <string name="classic_mode">Classic Mode</string>
     <string name="current_mode">Current Mode</string>
     <string name="achievements">ACHIEVEMENTS</string>
